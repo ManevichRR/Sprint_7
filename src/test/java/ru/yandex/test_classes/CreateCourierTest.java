@@ -20,9 +20,9 @@ public class CreateCourierTest {
     static Courier courierDouble;
 
     //Create courier test
-    private static final String courierLogin = "maxim_courier23";
+    private static final String courierLogin = "manro9090";
     private static final String courierPassword = "password";
-    private static final String courierName  = "Maxim";
+    private static final String courierName  = "Roman";
     private static final String courierBodyFieldOk = "ok";
     private static final Boolean courierBodyValueTrue = true;
 
@@ -32,7 +32,7 @@ public class CreateCourierTest {
     private static final String courierBodyValueMessageDouble = "Этот логин уже используется. Попробуйте другой.";
 
     //Create courier without login test
-    private static final String courierJsonWithoutLoginField = "{\"password\": \"password\", \"firstName\": \"saske\"}";
+    private static final String courierJsonWithoutLoginField = "{\"password\": \"password\", \"firstName\": \"John\"}";
     private static final String courierBodyFieldMessageWithoutLoginField  = "message";
     private static final String courierBodyValueMessageWithoutLoginField  = "Недостаточно данных для создания учетной записи";
 
