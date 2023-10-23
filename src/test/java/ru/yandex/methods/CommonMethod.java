@@ -1,4 +1,4 @@
-package methods;
+package ru.yandex.methods;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
